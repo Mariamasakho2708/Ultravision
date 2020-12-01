@@ -30,16 +30,16 @@ p, li, textarea, label, input, select {
   color: #ffffff;
   font-size: 38px;
   background-color: #ff6b00;
-  margin-top: 0px;
+  margin-top: 8px;
   margin-bottom: 8px;
 }
 .header_deco{
- margin-top: 0px;
+ margin-top: 8px;
  margin-bottom: 8px; 
 }
 .header_deco--red{
-  width: 1440px;
-  min-height: 32px;
+  width: 1480x;
+  height: 32px;
   background-color: red;
 }
 .header_deco--violet{
@@ -50,6 +50,87 @@ p, li, textarea, label, input, select {
   min-height: 8px;
   background-color: #6236ff;
 }
+.sub-title {/*
+  width:1880px;
+  height: 112px;*/
+  margin: 32px 15px;
+  font-family: Poppins, sans-serif;
+  font-size: 38px;
+  font-weight: 900;
+  text-align: center;
+  color: #231f20;
+}
+.flotte {
+  float: right;
+  width: 487px;
+  height: 471px;
+  object-fit: contain;
+  background-image:url(img/bg-yellow.png);
+}
+
+
+.microtitre{
+  margin:34px 31px 30px 0;
+}
+.texte1{
+  width: 640px;
+  height: 345px;
+  margin: 34px 31px 30px 0;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #231f20;
+}
+
+.mis-avant1{
+display: flex;
+max-width: 1200px;
+margin-left: auto;
+margin-right: auto;
+}
+.mis-avant_content1{
+.mis-avant_illu1
+flex-basis: 320px;
+flex-grow : 1px
+}
+
+.mis-avant_content1{
+  padding-top: 0px;
+  padding-right: 32px;
+  padding-bottom:32px;
+  padding-left: 32px;
+}
+.mis-avant_microtitre1{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.paragraphe1{
+font-size: 16px;
+text-align: justify;
+}
+
+.mis-avant_illu1{
+background-image:url(img/bg-orange.png);
+background-position: right bottom;
+background-size: auto 100%;
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+}
+
+.mis-avant_image1{
+display: block;
+max-width: 70%;
+mix-blend-mode: darken;
+}
+
+
 
 
 
